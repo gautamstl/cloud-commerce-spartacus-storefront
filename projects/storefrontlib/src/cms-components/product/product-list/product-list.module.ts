@@ -35,6 +35,9 @@ import { ProductViewComponent } from './product-view/product-view.component';
         ProductRefinementComponent: {
           component: ProductFacetNavigationComponent,
         },
+        ProductListComponent: {
+          component: ProductListComponent
+        },
       },
     }),
     RouterModule,

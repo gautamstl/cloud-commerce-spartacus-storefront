@@ -5,7 +5,7 @@ import { BREAKPOINT } from '../../../layout/config/layout-config';
 import { Media, MediaFormats } from './media.model';
 
 /** the default format is used for browsers that do not support   */
-const DEFAULT_MEDIA_FORMAT = 'tablet';
+const DEFAULT_MEDIA_FORMAT = 'widescreen';
 
 @Injectable({
   providedIn: 'root',

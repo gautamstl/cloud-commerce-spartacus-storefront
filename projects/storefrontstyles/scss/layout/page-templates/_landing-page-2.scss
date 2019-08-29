@@ -1,12 +1,12 @@
 %LandingPage2Template {
   display: flex;
   flex-wrap: wrap;
-  max-width: 1700px;
+  //max-width: 1700px;
   margin: auto;
 
   cx-page-slot {
     &.Section1 {
-      max-width: 1140px;
+      //max-width: 1140px;
       margin: auto;
       margin-top: 30px;
 
@@ -26,7 +26,7 @@
     &.Section2A,
     &.Section2B {
       --cx-flex-basis: 50%;
-      max-width: 570px;
+      //max-width: 570px;
       @include media-breakpoint-down(md) {
         --cx-flex-basis: 100%;
         max-width: 100%;
@@ -43,7 +43,7 @@
     }
 
     &.Section3 {
-      max-width: 1140px;
+      //max-width: 1140px;
       margin: auto;
     }
 

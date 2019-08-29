@@ -35,16 +35,18 @@ if (!environment.production) {
       backend: {
         occ: {
           baseUrl: environment.occBaseUrl,
+          prefix: '/stltelcocommercewebservices/v2/',
           legacy: false,
         },
+      },
+      authentication: {
+        client_id: 'sbg_admin',
+        client_secret: 'secret'
       },
       context: {
         urlParameters: ['baseSite', 'language', 'currency'],
         baseSite: [
-          'electronics-spa',
-          'electronics',
-          'apparel-de',
-          'apparel-uk',
+          'b2ctelco',
         ],
       },
 
